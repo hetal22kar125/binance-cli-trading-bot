@@ -89,17 +89,22 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price
 
 ---
 
-## 📊 Logging
+## Example Output
 
-All logs are stored in:
+ORDER REQUEST:
+Symbol: BTCUSDT
+Side: BUY
+Type: MARKET
+Quantity: 0.01
 
-```
-bot.log
-```
-
-This helps in debugging and tracking order activity.
+ORDER RESPONSE:
+orderId: 123456
+status: FILLED
+executedQty: 0.01
 
 ---
+
+
 
 ## ⚠️ Notes
 
@@ -124,6 +129,10 @@ This helps in debugging and tracking order activity.
 * Add better validation for inputs
 * Improve error handling
 * Add unit tests
+---
+
+## AI Assistance Disclosure
+This project was built with the help of AI for learning and structuring the code, while I implemented and tested all functionality on Binance Testnet.
 
 ---
 
