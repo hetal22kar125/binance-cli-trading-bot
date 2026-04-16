@@ -113,6 +113,12 @@ executedQty: 0.01
 * LIMIT orders require a price parameter.
 
 ---
+📊 Logging
+
+All logs are stored in:
+```
+logs
+```
 
 ## 🧠 Learnings
 
