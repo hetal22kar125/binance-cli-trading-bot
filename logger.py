@@ -1,9 +1,10 @@
 import logging
 
 logging.basicConfig(
-    filename="bot.log",
+    filename="logs/bot.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logger = logging.getLogger()
+logger = logging.getLogger("trading_bot")
+logger.propagate = False
